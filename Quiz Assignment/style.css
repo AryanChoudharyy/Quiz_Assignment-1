@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fs {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf5ff;
+}
+
+.h1-btn {
+    text-align: center;
+    font-size: 2rem;
+    width: 400px;
+    color: #57a5eb;
+}
+
+.btn {
+    border: 1.2px solid #57a5eb;
+    background-color: white;
+    color: #57a5eb;
+    width: 200px;
+    height: 35px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px #bbe4fe;
+}

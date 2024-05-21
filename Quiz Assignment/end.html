@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game End</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="fs end">
+        <div class="h1-btn">
+            <h1 class="score">0</h1>
+            <a href="./game.html"><button class="btn">Play Again</button></a>
+            <a href="./home.html"><button class="btn">Go Home</button></a>
+        </div>
+    </div>
+    <script>
+        let score = document.querySelector('.score');
+        score.innerText = localStorage.getItem('score');
+    </script>
+</body>
+</html>
